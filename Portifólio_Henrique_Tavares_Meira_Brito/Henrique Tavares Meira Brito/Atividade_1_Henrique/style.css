@@ -1,0 +1,249 @@
+/* =========================
+   ESTILO GLOBAL (TODAS AS PÁGINAS)
+   ========================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00ff11;
+    background-image: url(https://wallpapers.com/images/hd/gon-and-killua-shooting-star-2rvjxpupsy5wgc4c.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.gon {
+    background-image: url(https://i.pinimg.com/736x/95/09/f0/9509f07364c0c12550020eb60893ed2e.jpg);
+}
+.kurapika {
+    background-image: url(https://i.pinimg.com/originals/6b/cb/49/6bcb49a0f094e4ab69bb9f7225b94d72.gif);
+}
+.leorio {
+    background-image: url(https://wallpapers.com/images/featured/leorio-paradinight-izk416h8am3xygfl.jpg);
+}
+
+/* =========================
+   CONTAINER PRINCIPAL
+   ========================= */
+
+.ficha-container {
+    background-color: #6d5bf16c; /* padrão Killua */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(173, 122, 255);
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+}
+.gon .ficha-container {
+    background-color: #6d5bf16c; /* padrão Killua */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(59, 246, 56);
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+}
+.kurapika .ficha-container {
+    background-color: #f15b5b6c; /* padrão Killua */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(83, 33, 33);
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* =========================
+   IMAGEM DO PERSONAGEM
+   ========================= */
+
+.personagem-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #003cff; /* padrão Killua */
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   TEXTOS PRINCIPAIS
+   ========================= */
+
+.personagem-nome {
+    color: #003cff;
+    font-size: 2.5em;
+    margin: 10px 0 5px;
+}
+
+.personagem-titulo {
+    color: #2558ff;
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Biografia */
+.ficha-bio p {
+    line-height: 1.6;
+    color: #00aeff;
+}
+
+/* =========================
+   HABILIDADES
+   ========================= */
+
+.ficha-habilidades h3 {
+    margin-top: 20px;
+    color: #00aeff;
+    border-bottom: 2px solid #00aeff;
+    padding-bottom: 5px;
+}
+
+.ficha-habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ficha-habilidades li {
+    background-color: #d0d0d0;
+    border: 2px solid #00aeff;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* =========================
+   MENU DE PERSONAGENS
+   ========================= */
+
+.menu-personagens {
+    margin-bottom: 15px;
+}
+
+.menu-personagens a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+.menu-personagens a:hover {
+    text-decoration: underline;
+}
+
+/* Link no nome do personagem */
+.personagem-nome a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.personagem-nome a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   ESTILO EXCLUSIVO DO GON
+   ========================= */
+
+body.gon .ficha-container {
+    background-color: rgba(50, 150, 50, 0.7);
+}
+
+body.gon .personagem-nome {
+    color: #00ff00;
+}
+
+body.gon .personagem-titulo {
+    color: #7dff7d;
+}
+
+body.gon .ficha-bio p {
+    color: #b6ffb6;
+}
+
+body.gon .ficha-habilidades h3 {
+    color: #7dff7d;
+    border-bottom-color: #7dff7d;
+}
+
+body.gon .personagem-foto {
+    border-color: #00ff00;
+}
+.gon .ficha-habilidades li {
+   background-color: #d0d0d0;
+    border: 2px solid #00ff00;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* =========================
+   ESTILO EXCLUSIVO DO KURAPIKA
+   ========================= */
+
+body.kurapika .ficha-container {
+    background-color: rgba(150, 50, 50, 0.7);
+}
+
+body.kurapika .personagem-nome {
+    color: #ff0011;
+}
+
+body.kurapika .personagem-titulo {
+    color: #ff7d7d;
+}
+
+body.kurapika .ficha-bio p {
+    color: #ffb6b6;
+}
+
+body.kurapika .ficha-habilidades h3 {
+    color: #ff7d7d;
+    border-bottom-color: #ff7d7d;
+}
+
+body.kurapika .personagem-foto {
+    border-color: #ff0000;
+}
+.kurapika .ficha-habilidades li {
+   background-color: #d0d0d0;
+    border: 2px solid #ff0000;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* =========================
+   ESTILO EXCLUSIVO DO LEORIO
+   ========================= */
+   body.leorio .ficha-container {
+    background-color: rgba(122, 150, 50, 0.495);
+}
+
+body.leorio .personagem-nome {
+    color: #e5ff1f;
+}
+
+body.leorio .personagem-titulo {
+    color: #e5ff1f;
+}
+
+body.leorio .ficha-bio p {
+    color: #e5ff1f;
+}
+
+body.leorio .ficha-habilidades h3 {
+    color: #e5ff1f;
+    border-bottom-color: #e5ff1f;
+}
+
+body.leorio .personagem-foto {
+    border-color: #e5ff1f;
+}
+.leorio .ficha-habilidades li {
+   background-color: #d0d0d0;
+    border: 2px solid #e5ff1f;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
